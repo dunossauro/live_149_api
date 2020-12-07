@@ -5,6 +5,9 @@ Flask rest api da live 149
 ## Como rodar esse projeto
 
 ```sh
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 export FLASK_APP=app
 export FLASK_ENV=Development
 export FLASK_DEBUG=True
